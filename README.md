@@ -116,5 +116,7 @@ Once extraction is done, you're clear to reimage, repair, or reinstall Windows o
    **I Will be adding onto this as i learn more but feel free to pull request this** 
 
 **Hope this helps you out at least once!**
-
+<p align="center">
+  <b><i><span style="color:limegreen;">Eyezik ❤️</span></i></b><br><br><br>
+</p>
 ---
