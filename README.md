@@ -113,9 +113,11 @@ Once extraction is done, you're clear to reimage, repair, or reinstall Windows o
 2. **AI**... yeah AI I couldve spent all week on StackOverFlow trying to make this but luckily that's a time of the past.
 3. All the customers who are too picky for just a User file to be moved over..
 
-   **I Will be adding onto this as i learn more but feel free to pull request this** 
+---
 
-**Hope this helps you out at least once!**
+ **I will be adding onto this as I learn more but feel free to pull request this.** 
+
+**And remember, no matter how rude they are; its fraud upon to put a 3 week time-delayed zip bomb in the startup folder.!**
 <p align="center">
   <b><i><span style="color:limegreen;">Eyezik ❤️</span></i></b><br><br><br>
 </p>
