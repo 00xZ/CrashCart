@@ -120,5 +120,17 @@ Once extraction is done, you're clear to reimage, repair, or reinstall Windows o
 **And remember, no matter how rude they are; its fraud upon to put a 3 week time-delayed zip bomb in the startup folder.!**
 <p align="center">
   <b><i><span style="color:limegreen;">Eyezik ❤️</span></i></b><br><br><br>
+
+   
+<div align="center">
+
+## 🍎 For getting data off Mac's try _MacNCheese_
+
+[![MacNCheese](https://img.shields.io/badge/Open-MacNCheese-green?style=for-the-badge&logo=apple)](https://github.com/00xZ/MacNCheese/tree/main)
+
+<br><br><br>
+
+</div>
+
 </p>
 ---
