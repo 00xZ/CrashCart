@@ -1,8 +1,8 @@
 @echo off
 setlocal EnableDelayedExpansion
 
-title UserRestore v1.0
-color 0B
+title ----- UserRestore -----
+color 0B 
 mode con: cols=70 lines=25
 
 :MENU
