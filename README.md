@@ -125,7 +125,8 @@ Once extraction is done, you're clear to reimage, repair, or reinstall Windows o
 <div align="center">
 
 ## 🍎 For getting data off Mac's try _MacNCheese_
-
+<br>
+You'd need to use Linux for this as all the windows tools are either paid or just don't work.
 [![MacNCheese](https://img.shields.io/badge/Open-MacNCheese-green?style=for-the-badge&logo=apple)](https://github.com/00xZ/MacNCheese/tree/main)
 
 <br><br><br>
