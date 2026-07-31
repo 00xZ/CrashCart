@@ -2,14 +2,12 @@
 
 # 🚑 CrashCart
 
-**When Windows won't boot, CrashCart pulls the patient's data out before you fix (or nuke) the OS — then puts it right back in.**
+**When Windows won't boot, CrashCart pulls the user's data out before you fix (or nuke) the OS — then puts it right back in.**
 
-Built because "just back up the user profile real quick" should not require a 45-minute fight with Windows.
+_Inspired from laziness built from spite_
 
-![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D6?logo=windows&logoColor=white)
-![Shell](https://img.shields.io/badge/shell-Batch%20Script-4EAA25?logo=gnu-bash&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Status](https://img.shields.io/badge/status-active-brightgreen)
+
+
 
 </div>
 
@@ -23,8 +21,6 @@ Built because "just back up the user profile real quick" should not require a 45
 - [What Gets Rescued](#-what-gets-rescued)
 - [Usage — Extraction](#-usage--extraction-usersyncbat)
 - [Usage — Restoration](#-usage--restoration-userrestorebat)
-- [⚠️ Important Notes & Warnings](#️-important-notes--warnings)
-- [License](#-license)
 
 ---
 
@@ -39,7 +35,7 @@ Built because "just back up the user profile real quick" should not require a 45
 
 ## 🩺 The Scenario
 
-Windows is corrupted. Won't boot. Repair options are shrugging at you. The fix is a reinstall — but the customer's entire digital life is still sitting on that drive.
+Windows is corrupted. Won't boot. We've all been there. The fix is a reinstall — but the customer's entire digital life is still sitting on that drive.
 
 CrashCart exists for exactly that moment: pull the drive, connect it to a working PC, run `UserSync.bat`, grab everything that matters, then fix or reimage the broken install. Once it's healthy again, `UserRestore.bat` puts everything back like nothing happened.
 
@@ -109,30 +105,3 @@ Once extraction is done, you're clear to reimage, repair, or reinstall Windows o
 5. 🔁 **Restart Windows** once the restore completes so account/profile changes take effect properly.
 
 Patient's data, fully resuscitated.
-
----
-
-## ⚠️ Important Notes & Warnings
-
-> [!WARNING]
-> **This is a file copy, not a full profile restore.** It does *not* migrate registry hives, so program settings tied to the registry, user SIDs, or Windows account credentials are **not** restored — only file-based data. You'll still need to create matching local/Microsoft accounts with the same usernames on the destination machine for folder ownership/permissions to line up cleanly.
-
-> [!CAUTION]
-> **BitLocker recovery keys and Wi-Fi passwords are handled in plain text.** The recovery key is typed directly into the console, and exported Wi-Fi profiles include saved passwords in cleartext XML files. Treat extracted backups as sensitive and store them securely (encrypted drive, private location).
-
-- 🔗 **Junction points are excluded** (`/XJ` flag on robocopy) to avoid infinite loops from folders like `AppData\Local\Application Data`.
-- 🌐 Browser data is copied as-is — for a clean extraction, avoid running browsers on the patient drive beforehand if possible.
-- 📊 Large profiles (especially with big `AppData`, OneDrive caches, or Minecraft worlds) can make extraction slow and large — check the estimated size shown before letting it run unattended.
-- 🛡️ Run an antivirus scan on the patient drive before extraction if you're not sure of its history — no sense saving the malware along with the vacation photos.
-
----
-
-## 📄 License
-
-Add your preferred license here (e.g. MIT).
-
-<div align="center">
-
-No wizard required. Just a cart, a crash, and a plan. 🚑
-
-</div>
