@@ -110,7 +110,7 @@ Once extraction is done, you're clear to reimage, repair, or reinstall Windows o
 ## 🔄 Special Thanks To!
 
 1. Me drinking too much coffee on my lunch break
-2. **AI**... yeah AI I couldve spent all week on StackOverFlow trying to make this but luckily that's a time of the past.
+2. **AI**... yeah AI; I couldve spent all week on StackOverFlow trying to make this but luckily that's a time of the past.
 3. All the customers who are too picky for just a User file to be moved over..
 
 ---
