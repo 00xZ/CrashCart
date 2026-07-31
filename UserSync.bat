@@ -1,7 +1,7 @@
 @echo off
 setlocal EnableDelayedExpansion
 
-title UserSync v1.0
+title ----- UserSync -----
 color 07
 mode con: cols=65 lines=20
 
