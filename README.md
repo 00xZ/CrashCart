@@ -104,3 +104,17 @@ Once extraction is done, you're clear to reimage, repair, or reinstall Windows o
 4. CrashCart restores each rescued profile to `C:\Users\<username>\`, creating the user folder if it doesn't already exist.
 5. 🔁 **Restart Windows** once the restore completes so account/profile changes take effect properly.
 6. Friendly remind Gramps not to touch System32.... dont worry youll see him next week :)
+
+7. ---
+
+## 🔄 Special Thanks To!
+
+1. Me drinking too much coffee on my lunch break
+2. **AI**... yeah AI I couldve spent all week on StackOverFlow trying to make this but luckily that's a time of the past.
+3. All the customers who are too picky for just a User file to be moved over..
+
+   **I Will be adding onto this as i learn more but feel free to pull request this** 
+
+**Hope this helps you out at least once!**
+
+---
