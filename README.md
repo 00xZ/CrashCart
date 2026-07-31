@@ -4,7 +4,7 @@
 
 **When Windows won't boot, CrashCart pulls the user's data out before you fix (or nuke) the OS — then puts it right back in.**
 
-_Inspired from laziness built from spite_
+_Inspired by laziness built from spite_
 
 
 
