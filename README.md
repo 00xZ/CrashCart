@@ -96,7 +96,7 @@ Once extraction is done, you're clear to reimage, repair, or reinstall Windows o
 
 ## Usage - Restoration (UserRestore.bat) 
 
-**[ **Run this on the user's PC ]
+[ **Run this on the user's PC** ]
 1. On the now-healthy Windows install, right-click `UserRestore.bat` → **Run as administrator**.
 2. Choose where the extracted backup is located:
    - **[1] Desktop** — lists backup folders found on your Desktop
